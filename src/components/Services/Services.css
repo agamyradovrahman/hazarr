@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+/*------------Globa----------*/
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000; 
+}
+/*------------Globa----------*/
+
+/*------------ Branding ----------*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  justify-content: center;
+}
+
+
+/*------------ Branding ----------*/
+/*------------ about ----------*/
+
+
+.heading h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+
+/*------------ about ----------*/
+/*------------ Services ----------*/
+.Services {
+  text-align: center;
+  background-color: #f8f9fe;
+  padding: 50px 0;
+}
+.Services .box {
+  text-align: left;
+}
+.Services img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.Services .text {
+  background: #fff;
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 6%);
+  padding: 30px;
+  margin: 20px;
+  margin-top: -50px;
+  position: relative;
+  z-index: 1;
+}
+.Services .text h2 {
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+/*------------ Services ----------*/
+
+
+@media screen and (max-width: 950px) {
+ 
+  /*------------ Branding ----------*/
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /*----------- - Branding ----------*/
+
+}
+
+@media screen and (max-width: 700px) {
+ 
+  /*------------ Branding ----------*/
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /*----------- - Branding ----------*/
+
+}
+/*------------ pages ----------*/
+.pagesContent {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*------------ pages ----------*/
