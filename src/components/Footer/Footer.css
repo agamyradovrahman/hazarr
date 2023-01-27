@@ -11,13 +11,13 @@
   width: 100%;
   text-align: center;
 
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .gpt3__footer-heading h1 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 64px;
+  font-size: 50px;
   line-height: 75px;
 }
 
@@ -44,23 +44,24 @@
 
 .gpt3__footer-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
 
-  width: 100%;
+  width: 100%; 
   text-align: left;
 }
 
 .gpt3__footer-links div {
-  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gpt3__footer-links_logo {
   display: flex;
   flex-direction: column;
-  padding-top: 40px;
 }
 
 .gpt3__footer-links_logo img {
@@ -68,6 +69,7 @@
   height: 30px;
 
   margin-bottom: 1rem;
+  padding-right: 10px;
 }
 
 .gpt3__footer-links_logo p {
@@ -86,8 +88,9 @@
 
 .gpt3__footer-links_dis {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
+
 }
 
 .gpt3__footer-links_div h4 {
@@ -105,8 +108,9 @@
   line-height: 17px;
   font-family: var(--font-family);
   color: #fff;
+  display: flex;
+  justify-content: center;
 
-  margin-bottom: 0.9rem;
 }
 
 .gpt3__footer-links_div p {
@@ -133,9 +137,29 @@
 }
 
 .youtube_social {
-  padding-right: 15px;
+  padding-bottom: 20px;
+  padding: 10px;
+  color: #fff; 
+  font-size: 2.5rem;
+}
+
+.email{
+  padding: 15px;
+  padding-top: 0px;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 25px;
+}
+
+.copy{
+  padding: 15px;
+  padding-top: 30px;
+
+  color: #fff;
+  font-size: 18px;
+}
+
+.last{
+  padding-top: 10px;
 }
 
 @media screen and (max-width: 850px) {
@@ -147,23 +171,47 @@
 
 @media screen and (max-width: 550px) {
   .gpt3__footer-heading h1 {
-    font-size: 34px;
-    line-height: 42px;
+    font-size: 25px;
+    line-height: 27px;
   }
 
-  .gpt3__footer-links div {
-    margin: 1rem 0;
-  }
+
 
   .gpt3__footer-btn p {
     font-size: 14px;
     line-height: 20px;
   }
+
+  .email{
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .copy{
+    padding: 15px;
+    padding-top: 30px;
+  
+    color: #fff;
+    font-size: 13px;
+  }
+  .section__paddint {
+    padding: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .gpt3__footer-heading h1 {
-    font-size: 27px;
+    font-size: 25px;
     line-height: 38px;
+  }
+  .youtube_social {
+    padding-bottom: 20px;
+    padding: 10px;
+    color: #fff; 
+    font-size: 1.8rem;
   }
 }

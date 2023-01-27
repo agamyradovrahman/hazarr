@@ -8,8 +8,7 @@ const Services = () => {
       <section className='Services topMarign'>
         <div className='container'>
           <div className='heading'>
-            <h3>MY SERVICES</h3>
-            <h1>Interactive Services Offered Me</h1>
+            <h1 className="baslyk">OUR SERVICES</h1>
           </div>
 
           <div className='contain grid topMarign'>

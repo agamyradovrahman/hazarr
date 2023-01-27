@@ -38,7 +38,15 @@ a {
 }
 
 .section__padding {
-  padding: 5rem;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.section__paddint {
+  padding: 2rem;
+  padding-bottom: 1rem;
   padding-right: 5rem;
   padding-left: 5rem;
 }

@@ -105,6 +105,32 @@
     border-bottom-right-radius: 5px;
 }
 
+.buttondiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.buttonstyle {
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #AE67FA;
+    border: 2px solid #AE67FA;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border-radius: 7px;
+}
+
+.buttonstyle a {
+    color: #fff;
+}
+
 .gpt3__header-content__people {
     width: 100%;
     display: flex;
@@ -186,6 +212,9 @@
     .gpt3__header-content h1 {
         font-size: 36px;
         line-height: 48px;
+    }
+    .buttonstyle {
+        font-size: 15px;
     }
 
     .gpt3__header-content p {

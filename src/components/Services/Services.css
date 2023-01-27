@@ -40,7 +40,7 @@ a {
 
 
 .heading h1 {
-  font-size: 30px;
+  font-size: 36px;
   margin-bottom: 30px;
 }
 
@@ -76,6 +76,8 @@ a {
   font-size: 22px;
   margin-bottom: 20px;
 }
+
+
 /*------------ Services ----------*/
 
 
@@ -96,6 +98,10 @@ a {
     grid-template-columns: repeat(1, 1fr);
   }
   /*----------- - Branding ----------*/
+  .heading h1 {
+    font-size: 28px;
+  }
+  
 
 }
 /*------------ pages ----------*/
