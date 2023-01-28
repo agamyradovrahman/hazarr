@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hazarr/static/css/main.d46ab242.css",
-    "main.js": "/hazarr/static/js/main.dc0baa18.js",
+    "main.js": "/hazarr/static/js/main.c98eeca9.js",
     "static/media/de.png": "/hazarr/static/media/de.36d5a0086ccc22c5c6cb.png",
     "static/media/about.gif": "/hazarr/static/media/about.c9a88b5a2e8d1c0a93bb.gif",
     "static/media/bas.gif": "/hazarr/static/media/bas.2f4721d57baf9c88dc79.gif",
@@ -11,10 +11,10 @@
     "static/media/analit.jpeg": "/hazarr/static/media/analit.3a5d8dc4b24479c08ad9.jpeg",
     "index.html": "/hazarr/index.html",
     "main.d46ab242.css.map": "/hazarr/static/css/main.d46ab242.css.map",
-    "main.dc0baa18.js.map": "/hazarr/static/js/main.dc0baa18.js.map"
+    "main.c98eeca9.js.map": "/hazarr/static/js/main.c98eeca9.js.map"
   },
   "entrypoints": [
     "static/css/main.d46ab242.css",
-    "static/js/main.dc0baa18.js"
+    "static/js/main.c98eeca9.js"
   ]
 }
