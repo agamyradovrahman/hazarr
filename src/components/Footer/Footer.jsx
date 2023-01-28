@@ -23,7 +23,7 @@ const Footer = () => (
             </a>
           </div>
         </div>
-        <div className="email">seyran.aman@gmai.com</div>
+        <div className="email">contact@khazaranalytics.com</div>
 
         <div className="copy">© 2023 Khazar Analytics</div>
       </div>
