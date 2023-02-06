@@ -1,8 +1,8 @@
 .gpt3__headet {
   display: flex;
   flex-direction: row;
-  padding-top: 7.1rem;
-  padding-bottom: 7.4rem;
+  padding-top: 8.5rem;
+  padding-bottom: 8.5rem;
   padding-right: 5rem;
   padding-left: 5rem;
 }
@@ -225,7 +225,7 @@
 @media screen and (max-width: 490px) {
   .gpt3__headet {
     flex-direction: column;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
   }
   .gpt3__header-content h1 {
     font-size: 36px;
