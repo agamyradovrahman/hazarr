@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.d46ab242.css",
-    "main.js": "/static/js/main.c7835f55.js",
+    "main.css": "/static/css/main.5f92d422.css",
+    "main.js": "/static/js/main.61fc82db.js",
+    "static/media/iki.jpg": "/static/media/iki.5deca6ca94f856f6272f.jpg",
     "static/media/de.png": "/static/media/de.36d5a0086ccc22c5c6cb.png",
     "static/media/about.gif": "/static/media/about.c9a88b5a2e8d1c0a93bb.gif",
-    "static/media/bas.gif": "/static/media/bas.2f4721d57baf9c88dc79.gif",
     "static/media/editedd.jpeg": "/static/media/editedd.a3e481af467e93e953ac.jpeg",
     "static/media/tt.jpeg": "/static/media/tt.db3514b593d5675e1243.jpeg",
     "static/media/khazarana1.png": "/static/media/khazarana1.7b4edd8ea8b33610f3d5.png",
     "static/media/analit.jpeg": "/static/media/analit.3a5d8dc4b24479c08ad9.jpeg",
     "index.html": "/index.html",
-    "main.d46ab242.css.map": "/static/css/main.d46ab242.css.map",
-    "main.c7835f55.js.map": "/static/js/main.c7835f55.js.map"
+    "main.5f92d422.css.map": "/static/css/main.5f92d422.css.map",
+    "main.61fc82db.js.map": "/static/js/main.61fc82db.js.map"
   },
   "entrypoints": [
-    "static/css/main.d46ab242.css",
-    "static/js/main.c7835f55.js"
+    "static/css/main.5f92d422.css",
+    "static/js/main.61fc82db.js"
   ]
 }
