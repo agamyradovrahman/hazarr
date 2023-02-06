@@ -1,0 +1,125 @@
+.bigg{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+    padding-bottom: 4rem;
+
+    background-color: #f8f9fe ;
+}
+
+.containere {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 70%;    
+
+}
+
+.formstylee {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column; 
+  width: 100%;
+  font-size: 20px;
+
+} 
+
+.salamma {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.pepep{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 15px;
+}
+
+.kakak{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+ 
+.inputstylee {
+  width: 100%;
+  height: 50px;
+  padding: 7px;
+  font-size: 22px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.inputstylee:focus {
+  border: 2px solid #9fadb9;
+}
+ 
+.textareastylee {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  max-width: 200px;
+  min-height: 200px;
+  padding: 7px;
+  font-size: 25px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.textareastylee:focus {
+  border: 2px solid #9fadb9;
+}
+ 
+.labelstylee{
+    margin-top: 1rem;   
+}
+
+.inputstylee[type="submit"] {
+    margin-top: 2rem;
+    cursor: pointer;
+    background: #4e7eb1;
+    color: white;
+    border: none;
+}
+
+.gpt3__footer-headint { 
+  width: 100%;
+  text-align: center;
+
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.gpt3__footer-headint h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 75px;
+}
+ 
+.inputstylee[type="submit"]:hover {
+  background: #315479; 
+}
+ 
+.inputstylee[type="submit"]:active {
+  background: #315479;
+  transform: translateY(4px);
+
+}
+
+
+@media screen and (max-width: 1000px) {
+  .salamma {
+
+    flex-direction: column;
+  }
+  
+}
+

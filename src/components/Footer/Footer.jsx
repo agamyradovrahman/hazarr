@@ -2,17 +2,17 @@ import React from "react";
 import "./Footer.css";
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 
-const Footer = () => (
-  <div className="gpt3__footer section__paddint" id="contact">
+const Footer = () => ( 
+  <div className="gpt3__footer section__paddint">
     <div className="gpt3__footer-heading">
-      <h1 className="gradient__text">Interested in working together?</h1>
+      <h1 className="gradient__text">Socials</h1>
     </div>
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
         <div className="gpt3__footer-links_dis">
           <div className="lll">
-            <a href="contact" className="youtube_social">
+            <a href="https://www.linkedin.com/company/khazar-analytics/" className="youtube_social">
               <FaLinkedin />
             </a>
             <a

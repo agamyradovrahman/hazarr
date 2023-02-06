@@ -1,10 +1,11 @@
+
 import React from "react";
 
-import a from "../../assets/bas.gif";
-import "./Header.css";
+import a from "../../assets/iki.jpg";
+import "./Head.css";
 
 const Header = () => (
-  <div className="gpt3__header section__padding" id="home">
+  <div className="gpt3__headet section__padd" id="home">
     <div className="gpt3__header-content">
       <h1 className="gradient__text">
       Have your problem solved
