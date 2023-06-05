@@ -1,0 +1,45 @@
+
+{
+    "Home": {
+        "1": "Home"
+    },
+    "Services": {
+        "1": "Services"
+    },
+    "About": {
+        "1": "About"
+    },
+    "Contact": {
+        "1": "Contact"
+    },
+    "Header": {
+        "1": "Have your problem solved",
+        "2": "Data-driven approaches for your business problems and end-to-end web development for your businesses",
+        "3": "Contact Us"
+    },
+    "OurServices": {
+        "1": "Our Services",
+        "2": "Data Science", 
+        "3": "We provide data science consulting leveraging machine learning, artificial intelligence, and deep learning technologies to help our clients improve their decision making and develop data processing pipelines.",
+        "4": "Data Analytics",
+        "5": "We help your business to gain insights from your data to better understand business problems and provide you with interactive dashboards to monitor your business.",
+        "6": "Design",
+        "7": "We create useful and meaningful visuals using various technologies. We help your business to create company brand identity, Including: logos, web designs, Fonts & Typography and Business cards.",
+        "8": "Web Development",
+        "9": "We develop and design technological and effective websites for any kind of businesses depending on your needs."
+    },
+    "AboutUs": {
+        "1": "About Us",
+        "2": "Khazar Analytics is a start-up company with a team of data scientists and web developers. We provide Data Services, Website Development and Branding to have happy customers. Our aim is to increase the business value and help to grow in revenue not only in real world but also in digital world. If you are looking for reliable solutions for your business problems or pain points, have a look at our list of services we provide. For us, success in work is not only dependent on temporary income, but on the success of our clients."
+    },
+    "ContactUs": {
+        "1": "Name",
+        "2": "Email",
+        "3": "Message",
+        "4": "Send", 
+        "5": "Contact Us"
+    },
+    "Social": {
+        "1": "Socials"
+    }
+}

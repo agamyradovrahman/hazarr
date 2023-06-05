@@ -3,8 +3,11 @@ import aa from '../../assets/analit.jpeg'
 import data from '../../assets/editedd.jpeg'
 import webb from '../../assets/tt.jpeg'
 
+
+
+
 const ServicesData = [
-    {
+    { 
       id: 1,
       title: "Data Science",
       desc: "We provide data science consulting leveraging machine learning, artificial intelligence, and deep learning technologies to help our clients improve their decision making and develop data processing pipelines. ",
@@ -32,3 +35,5 @@ const ServicesData = [
   ] 
   
   export default ServicesData
+
+

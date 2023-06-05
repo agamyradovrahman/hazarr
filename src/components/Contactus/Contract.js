@@ -2,7 +2,12 @@ import "./Contact.css";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+import { useTranslation } from "react-i18next";
+
 const Contactus = () => {
+
+  const { t } = useTranslation();
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -30,23 +35,23 @@ const Contactus = () => {
   return (
     <div className="bigg" id="contact">
       <div className="gpt3__footer-headint">
-        <h1 className="hat">Contact Us</h1>
+        <h1 className="hat">{t("ContactUs.5")}</h1> 
       </div>
       <div className="containere ">
         <form className="formstylee" ref={form} onSubmit={sendEmail}>
           <div className="salamma">
             <div className="pepep">
-              <label className="labelstylee">Name</label>
+              <label className="labelstylee">{t("ContactUs.1")}</label>
               <input className="inputstylee" type="text" name="user_name" />
             </div>
             <div className="kakak">
-              <label className="labelstylee">Email</label>
+              <label className="labelstylee">{t("ContactUs.2")}</label>
               <input className="inputstylee" type="text" name="user_email" />
-            </div>
-          </div>
-          <label className="labelstylee">Message</label>
+            </div> 
+          </div> 
+          <label className="labelstylee">{t("ContactUs.3")}</label>
           <textarea className="textareastylee" name="message" />
-          <input className="inputstylee" type="submit" value="Send" />
+          <input className="inputstylee" type="submit" value={t("ContactUs.4")} />
         </form>
       </div>
     </div>
