@@ -22,9 +22,8 @@ const Navbar = () => {
         </div>
         <div className="gtp3_diller">
           <div className="gtp3_dil">
-            <div onClick={()=>handleClick('en')}>sasa</div>
-            <div onClick={()=>handleClick('az')}>wewe</div>
-          </div>
+            
+          </div>   
           <div className="gpt3__navbar-links_container">
             <p>
               <a href="#home">{t('Home.1')}</a>
